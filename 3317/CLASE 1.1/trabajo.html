@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi perfil</title>
+  </head>
+  <body>
+    <h1>Perfil de Emmanuel Solbes Soñora</h1>
+
+    <h2>Una foto mia</h2>
+
+    <img src="./Imagenes tp/manu y amy.jpg" alt="Imagen mia y de mi perra" />
+
+    <div>
+      <h2>Mis datos</h2>
+
+      <table>
+        <ul>
+          <li>Nombre: Emmanuel Solbes Soñora</li>
+          <li>Edad: 19 años</li>
+          <li>Correo: manusolbes04@gmail.com</li>
+        </ul>
+      </table>
+    </div>
+
+    <div>
+      <h2>Sobre mi</h2>
+      <p>Tengo 19 años, naci en el año 2004. Vivo en lanús, Buenos aires.</p>
+      <p>Me gustan una mayoria de deportes y lo que mas miro es el futbol.</p>
+      <p>
+        Soy hincha y socio de Banfield desde chico. Trabajo para el club y
+        ademas de eso hago camisetas de futbol entre otras cosas
+      </p>
+    </div>
+
+    <div>
+      <h2>Formulario de contaco</h2>
+    </div>
+
+    <form>
+      <div>
+        <label for="name">Nombre</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="EJ: Hernesto perez"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          placeholder="hernestoperez@gmail.com"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" min="0" max="99" required />
+      </div>
+      <br />
+      <div>
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" />
+      </div>
+      <br />
+      <div>
+        <label for="juego">Provincia</label>
+        <select name="juego" id="juego">
+          <option value="buenos-aires">Buenos Aires</option>
+          <option value="cordoba">Cordoba</option>
+          <option value="salta">Salta</option>
+          <option value="tucuman">Tucuman</option>
+          <option value="mendoza">Mendoza</option>
+          <option value="tierra-del-fuego">Tierra del Fuego</option>
+        </select>
+      </div>
+      <div>
+        <p>Sexo</p>
+        <div>
+          <label for="masculino">Masculino</label>
+          <input type="radio" name="Sexo" id="masculino" />
+        </div>
+        <div>
+          <label for="femenino">Femenino</label>
+          <input type="radio" name="Sexo" id="femenino" />
+        </div>
+      </div>
+      <br />
+      <div>
+        <label for="tel">Telefono</label>
+        <input type="tel" id="tel" />
+        <br />
+        <div>
+          <input type="checkbox" id="terminos" required />
+          <label for="terminos">Acepto los términos y condiciones </label>
+        </div>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Send" />
+      </div>
+    </form>
+  </body>
+</html>

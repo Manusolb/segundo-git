@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASE 2 - HTML</title>
+</head>
+<body>
+    <header>
+    <img src="https://via.placeholder.com/50" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Seccion 1 -->
+        <section>
+            <h1>Bienvenidos a mi pagina web</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, non.</p>
+            <a href="#">Contactame</a>
+        </section>
+        <!-- seccion 2 -->
+        <section>
+            <H2>Mis servicios</H2>
+            <div>
+                    <h2>Paginas web</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <H2>Diseño</H2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, assumenda?</p>
+            </div>
+        </section>
+        <!-- contacto  -->
+        <section>
+            <h3>Contacto</h3>
+            <form>
+                <div>  
+                    <label for="Name">Nombre</label>
+                    <input type="text" id="Name" placeholder="Ej: hernesto perez">
+                </div>
+
+                <div>  
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" placeholder="Ej: juanperez@gmail.com">
+                </div>
+
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" required>
+                </div>
+
+                <div>
+                    <label for="pass">Contraseña</label>
+                    <input type="password" id="pass">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="terminos" required>
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="spam">
+                    <label for="spam">Deseo recibir correo todos los dias</label>
+                </div>
+
+                <div>
+                    <p>Gusto de helado favorito</p>
+                        <div>
+                            <input type="radio" id="Chocolate"  name="gustos">
+                            <label for="Chocolate">Chocolate</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="vainilla"   name="gustos">
+                            <label for="vainilla">Vainilla</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="DDL"    name="gustos">
+                            <label for="DDL">Dulce de leche</label>
+                        </div>
+                        <div>
+                            <label for="juego">Jugar</label>
+                            <select name="juego" id="juego">
+                                <option value="piedra">piedra</option>
+                                <option value="papel">papel</option>  
+                                <option value="tijera">tijera</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="mensaje">Mensaje</label>
+                            <br>
+                            <textarea name="mensaje" id="mensaje"></textarea>
+                        </div>
+
+                    <div>
+                        <label for="tel">Telefono</label>
+                        <input type="tel" id="tel">
+                    </div>
+                </div>
+
+                <input type="submit" value="Send">
+                <input type="reset">
+                <!-- <button>Enviar</button> -->
+            </form>
+        </section>
+        <hr>
+    </main>
+    <!-- Footer  -->
+    <div>
+        <p>Paginas Messi</p>
+        <a href="#">Messi</a>
+    </div>
+
+    <a href="./blog.html">Blog</a>
+</body>
+</html>
